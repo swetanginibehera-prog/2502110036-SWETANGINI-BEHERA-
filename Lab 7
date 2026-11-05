@@ -1,0 +1,98 @@
+
+https://colab.research.google.com/drive/1qzosM1Awp8-Od32w2rl_0FomKYbUtH81?usp=sharing
+
+JOB 07 – MODEL A MACHINE
+
+1. Introduction
+
+Job 07 is about creating a real machine model using Python classes. We select a machine like a press, pump, conveyor or CNC and represent its properties and working operations through Python programming.
+
+2. Objectives
+
+- To create a machine class using Python.
+- To understand attributes and methods.
+- To use constructors and objects.
+- To protect data using private attributes.
+- To operate machines and generate reports.
+
+3. Five Phases of Job 07
+
+Phase 1 – Tooling
+
+- Open Google Colab and IDLE.
+- Select a real machine.
+- Design its control panel on paper.
+- Decide its attributes and methods before coding.
+
+Phase 2 – Operations
+
+IT12 – The Drawing
+
+- Create a machine class using "__init__".
+- Add at least three attributes, including one rating or capacity.
+
+IT10 – The Guarded Machine
+
+- Use private attributes ("__") to protect data.
+- Create validating methods to reject invalid commands.
+- Create a "status()" method to display machine condition.
+
+IT8 – Machine Batch
+
+- Process 10 jobs using a loop.
+- Maintain machine counters.
+- Generate a shift report.
+
+IT6 – The Fleet
+
+- Create a list of three machines.
+- Allocate jobs to available machines.
+- Generate a plant report.
+
+Phase 3 – Inspection
+
+Test another pair's machine using five tests:
+
+1. Cold Commissioning: Check whether the machine starts in a valid state.
+2. Out of Range: Give a command beyond its allowed capacity.
+3. Out of Sequence: Operate the machine in the wrong order.
+4. The Bypass: Check whether private data can be changed directly.
+5. Independence: Check whether operating one machine affects another.
+
+Record all defects and correct them.
+
+Phase 4 – Dispatch
+
+Submit the following:
+
+- Machine class in "shoptools.py".
+- Main driving program.
+- Lab record.
+- Control panel sketch.
+- Shift report output.
+
+Phase 5 – Teach-Back
+
+Demonstrate the machine's control panel and explain how its operations work.
+
+4. Important Python Concepts
+
+Concept| Meaning
+Class| Blueprint of a machine
+Object| Instance of a class
+Attribute| Properties of a machine
+Method| Work performed by a machine
+"__init__"| Constructor
+"self"| Refers to the current object
+Private attribute| Protects internal data
+"status()"| Displays machine condition
+
+5. Important Points
+
+- A class should know about itself, not unrelated things.
+- Use validation to reject incorrect commands.
+- Private attributes help protect internal data.
+- Each machine object should work independently.
+- Method names should clearly describe their work.
+
+
