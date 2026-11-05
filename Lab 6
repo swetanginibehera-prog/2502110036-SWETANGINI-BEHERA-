@@ -1,0 +1,27 @@
+
+https://colab.research.google.com/drive/10m4OVKpu3PEKrtXQ1uD3fBgXMgWuydlU?usp=sharing
+
+                 NOTES 
+LAB 06 – BUILD YOUR OWN TOOLBOX
+
+### Aim
+To convert repeated Python code into reusable functions and organize the program into a separate module.
+
+### Key Concepts
+
+1. **Functions:** Divide a large program into smaller reusable parts.
+2. **Return Statement:** Sends results back from a function.
+3. **Dictionary:** Stores part codes and their corresponding diameters.
+4. **Lookup Function:** Finds the diameter of a particular part code.
+5. **Refactoring:** Improves code structure without changing its output.
+6. **Module:** Stores reusable functions in a separate Python file.
+7. **Import:** Allows functions from one Python file to be used in another.
+8. **Docstrings:** Explain the purpose, input and output of functions.
+
+### Important Learning
+
+- `inspect(dia)` identifies the quality category.
+- `tally(labels)` counts different quality categories.
+- `report(shift, counts)` generates a formatted report.
+- Functions reduce repeated code.
+- Missing keys and incorrect inputs should be handled properly.
