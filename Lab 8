@@ -1,0 +1,24 @@
+https://colab.research.google.com/drive/1qzosM1Awp8-Od32w2rl_0FomKYbUtH81?usp=sharing
+
+              NOTES
+
+IT8 – Certify the Machine: Use a custom exception called SpecViolation to handle machine errors.
+IT6 – Self-Testing Program: Create a run_tests() function to test all 8 inputs and display PASS/FAIL results.
+Phase 3 – Inspection
+Exchange programs with another pair.
+Test their programs using all 8 tests.
+Check whether errors are handled properly.
+Give a certificate only if all tests pass.
+Otherwise, refuse certification and mention the failed test.
+Phase 4 – Dispatch
+Complete the certification sheet.
+Record the test results.
+Submit the final program and lab record.
+Phase 5 – Teach-Back
+Demonstrate the program to another pair.
+Show how it handles incorrect inputs and errors.
+4. Three Versions of the Program
+Version Description
+V1 – Naive Works with correct data but crashes with wrong input.
+V2 – Bare Except Does not crash but hides errors.
+V3 – Hardened Uses proper exceptions and safely rejects invalid data.
