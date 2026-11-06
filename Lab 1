@@ -1,0 +1,57 @@
+Lab 1: Operations — Tolerance-Graded Tasks (Scratch Blocks)
+
+ IT12: Rough cut — The Route Sheet Replay (Warm-up)
+
+  1.  `When [Green Flag] clicked`
+  2.  `Say [Step 1: Collect tea leaves & water] for (2) seconds`
+  3.  `Wait (1) seconds`
+  4.  `Say [Step 2: Boil water to 100°C] for (2) seconds`
+  5.  `Wait (1) seconds`
+  6.  `Say [Step 3: Add milk and spices] for (2) seconds`
+  7.  `Wait (1) seconds`
+  8.   Say [Step 4: Simmer brew] for (2) seconds`
+  9.  `Say [Step 5: Strain into cup] for (2) seconds`
+  10. `Say [Step 6: Serve hot! Route complete.] for (2) seconds`
+
+
+
+IT10: Standard — The Stamping Cycle
+
+    * When [Green Flag] clicked`
+    * set [parts_produced v] to [0]`
+    * repeat (5)`
+        * `call [Machine Cycle]`
+        * `change [parts_produced v] by (1)`
+    * say (join [Total parts produced: ] (parts_produced)) for (3) seconds`
+
+
+
+IT8: Fine — The Go/No-Go Inspector
+
+  * When [Green Flag] clicked`
+  * ask [Enter part diameter:] and wait`
+  * set [diameter v] to (answer)`
+  * if < <(diameter) > [24.95]> and <(diameter) < [25.05]> > then`
+      * `say [ACCEPT] for (2) seconds`
+    * `else`
+      * say [REJECT] for (2) seconds`
+    * `end`
+
+
+
+IT6: Precision — The Batch Report
+
+  * `When [Green Flag] clicked`
+  * `set [inspected v] to [0]`
+  *  set [accepted v] to [0]`
+  *  set [rejected v] to [0]`
+  * `repeat (10)`
+      * set [diameter v] to (pick random (24.90) to (25.10))`
+      * change [inspected v] by (1)`
+      * if < <(diameter) > [24.95]> and <(diameter) < [25.05]> > then`
+          * change [accepted v] by (1)`
+        * `else`
+          *  `change [rejected v] by (1)`
+        * `end`
+    * `end`
+  * say (join [10 inspected, ] (join (accepted) (join [ accepted, ] (join (rejected) [ rejected])))) for (5) seconds`
