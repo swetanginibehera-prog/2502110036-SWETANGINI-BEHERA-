@@ -1,13 +1,13 @@
 LAB 2
 
-  IT 12
+IT 12
   https://app.edublocks.org/project/5ZTh0UUy7qf6GdwQ5nVI1JUteaC3/gzXG6gUb1wJ05etQt4M5
-  IT 10
+IT 10
   https://app.edublocks.org/project/5ZTh0UUy7qf6GdwQ5nVI1JUteaC3/MasCqzpCOD1AzQJq4x8s
-  IT 08
+IT 08
   https://app.edublocks.org/project/5ZTh0UUy7qf6GdwQ5nVI1JUteaC3/IpXfpUsg7PSfHyu7XxOp
   
-  IT 06
+IT 06
   https://app.edublocks.org/project/5ZTh0UUy7qf6GdwQ5nVI1JUteaC3/tmP85nVlVLAB6vC0DHDG
   
 LAB 3
