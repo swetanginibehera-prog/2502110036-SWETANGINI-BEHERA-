@@ -31,5 +31,5 @@ https://colab.research.google.com/drive/1LKb5hv9KGoV4j86Sn-BkwIWsUuFLFHF4?usp=sh
 2502110036-LAB 9-IT-12,10,08,06
 https://colab.research.google.com/drive/1YnYOefUjmkUgHi3RrHM6i6E4ODQEE0BM?usp=sharing
 
-2502110036-LAB 10-IT-12.08,06
+2502110036-LAB 10-IT-12,10,08,06
 https://colab.research.google.com/drive/11bdftCKJVYpiGQpEq-L1PSjg7N995wWH
